@@ -101,7 +101,6 @@ int main() {
     printf("1 - Populacao\n2 - Area\n3 - PIB\n4 - Densidade Populacional\n5 - PIB per capita\n");
     printf("Digite o numero do atributo: ");
     scanf("%d", &atributo);
-    
     // Comparação das cartas
     compararCartas(&carta1, &carta2, atributo);
 
